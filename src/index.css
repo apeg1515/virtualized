@@ -1,3 +1,5 @@
+html, body { max-width: 100%; overflow-x: hidden; }
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +13,25 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.resized-9 {
+  flex-basis: 83% !important;
+  max-width: 83% !important;
+      box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.resized-1 {
+  flex-basis: 4% !important;
+  max-width: 4% !important;
+   box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding-right: .5rem;
+    padding-left: .5rem;
 }

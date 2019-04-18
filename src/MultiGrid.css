@@ -1,0 +1,84 @@
+.GridRow {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.GridColumn {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.LeftSideGridContainer {
+  flex: 0 0 75px;
+  z-index: 10;
+}
+
+.LeftSideGrid {
+  overflow: hidden !important;
+}
+.HeaderGrid {
+  width: 100%;
+  overflow: hidden !important;
+}
+.BodyGrid {
+  width: 100%;
+}
+
+.evenRow {
+}
+.oddRow {
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.cell,
+.headerCell,
+.leftCell {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 .5em;
+}
+.headerCell,
+.leftCell {
+  font-weight: bold;
+}
+
+.ContentBox {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+  padding: 0 1rem 1rem 1rem;
+  overflow: auto;
+  background: white;
+}
+.ContentBox:first-of-type {
+  padding-top: 1rem;
+}
+
+.Header {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  font-weight: normal;
+  justify-content: space-between;
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.Small {
+  font-size: .65em;
+}
+.Link:hover {
+  text-decoration: none;
+}
+
+.Paragraph {
+  flex: 0 0 auto;
+  line-height: 1.2rem;
+  margin: 0 0 1rem;
+}

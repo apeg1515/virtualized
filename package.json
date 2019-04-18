@@ -3,12 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "classnames": "^2.2.6",
+    "clsx": "^1.0.3",
+    "dom-helpers": "^3.4.0",
+    "flexboxgrid": "^6.3.1",
+    "immutable": "^4.0.0-rc.12",
+    "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-paginate": "^6.3.0",
+    "react-scripts": "2.1.5",
+    "react-select": "^2.4.2",
+    "react-virtualized": "^9.21.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3006 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
